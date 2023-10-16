@@ -1,0 +1,21 @@
+#video_inicio {
+    position: relative;
+    padding-bottom: 60%;
+    overflow:40%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.vidinicio {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.parte_texto {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+}
