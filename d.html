@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Biomaquete - Diapedese</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./estilo/reset.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./estilo/estilo.css">
+</head>
+
+<body>
+    <header class="cabeçalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu">
+                <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Tópicos</li>
+                <li class="lista-menu__item">
+                    <a href="/site_responsivo/l.html" class="lista-menu__link">Tópico 1</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="/site_responsivo/e.html" class="lista-menu__link">Tópico 2</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="/site_responsivo/d.html" class="lista-menu__link">Tópico 3</a>
+                </li>
+            </ul>
+            <img src="imagens/logo.jpg" class="logo" alt="Logo" class="container__imagem">
+        </div>
+        <div class="container">
+            <a href="#"><img src="imagens/Usuario.svg" alt="Perfil do usuário" class="container__imagem"></a>
+        </div>
+    </header>
+    <section class="banner">
+        <h2 class="banner__titulo">Biomaquete - Diapedese</h2>    
+        <p class="banner__texto"> A diapedese é um processo essencial na resposta imunológica do organismo, permitindo que os leucócitos, ou glóbulos brancos, saiam da corrente sanguínea e migrem para os tecidos onde sua ação é necessária. Esse processo é fundamental para a defesa do corpo contra infecções e lesões.</p>
+    </section>
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imagens/img1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="imagens/img2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="imagens/img3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <section class="card">
+        <iframe class="video" src="https://www.youtube.com/embed/h07A17Y13Io?rel=0" allowfullscreen></iframe>
+    </section>
+    <section class="tópicos">
+        <section class="tópicos">
+            <h2 class="tópicos__titulo">TÓPICOS</h2>
+            <ul class="tópicos__lista">
+                <li class="tópicos__item">
+                    <a href="index.html" class="tópicos__link">Página Inicial</a>
+                </li>
+                <li class="tópicos__item">
+                    <a href="l.html" class="tópicos__link">Leucócitos</a>
+                </li>
+                <li class="tópicos__item">
+                    <a href="e.html" class="tópicos__link">Endocitose</a>
+                </li>
+                <li class="tópicos__item">
+                    <a href="d.html" class="tópicos__link">Diapedese</a>
+                </li>
+            </ul>
+        </section>
+    <section class="contato">
+        <h2 class="contato__titulo">Ficha Técnica</h2>
+        <p class="banner__texto"> Informática 3 - Vespertino</p>
+        <p class="banner__texto"> Componentes do grupo: Mário Taveira, Vítor Leal, Davi Lessa e Marconi Dinamerico</p>
+        <p class="banner__texto"> Professores orientadores: Andrea Pereira e Álvaro Hermano</p>
+    </section>
+    <hr />
+    <footer class="rodapé">
+        <h2 class="rodapé__titulo">IFRN - Biomaquete</h2>
+    </footer>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper-container', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</html>
+
